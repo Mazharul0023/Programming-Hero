@@ -5,6 +5,7 @@ color: #edb51e;
 text-align: center;
 text-shadow: #edb51e 2px 2px 4px;
 font-size: 40px;
+margin: 20px;
 }
 
 
@@ -17,5 +18,7 @@ border: 2px solid black;
 background-color: #f0f0f0;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 18px;
+line-height: 1.6;
+
     
 }
