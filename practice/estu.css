@@ -1,11 +1,23 @@
-.new
-{
+.new {
     background-color: aquamarine;
 }
 
-h2
-{
+h2 {
     color: navy;
     text-align: center;
     text-decoration: underline;
 }
+
+#second {
+
+    text-shadow: 20px;
+    font-size: small;
+    background-color: brown;
+    /* display: none; */
+    /* visibility: hidden; */
+
+}
+ #high{
+    font-size: large;
+    background-color: violet;
+ }
