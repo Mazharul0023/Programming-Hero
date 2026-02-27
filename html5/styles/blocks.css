@@ -1,0 +1,22 @@
+nav li a   {
+    color: brown;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    margin-right: 50px;
+    list-style: none;
+}
+
+nav li:hover{
+    background-color: purple;
+    color: white;
+}
+
+
+footer{
+
+  text-align: center;
+
+}
