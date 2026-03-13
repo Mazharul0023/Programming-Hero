@@ -77,18 +77,18 @@ nav .menu a {
 
 }
 
-#hero .hero-contant {
+#hero .hero-content {
     width: 585px;
 }
 
-#hero .hero-contant h2 {
+#hero .hero-content h2 {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-#hero .hero-contant h1 {
+#hero .hero-content h1 {
     font-size: 85px;
     font-weight: bold;
     color: #181818;
@@ -96,7 +96,7 @@ nav .menu a {
 
 }
 
-#hero .hero-contant p {
+#hero .hero-content p {
     font-size: 18px;
     color: #454545;
     line-height: 30px;
