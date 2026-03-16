@@ -51,6 +51,10 @@
     color: #757575;
 }
 
+.text-center{
+    text-align:center;
+}
+
 /* main style */
 
 header {
