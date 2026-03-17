@@ -9,3 +9,17 @@ body .work-sans {
   
 }
 
+.btn{
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    padding: 18px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: semi-bold;
+    cursor: pointer;
+}
+
+#hero{
+    margin: 1px red solid;
+}
