@@ -17,20 +17,26 @@ body .work-sans {
 }
 
 header{
-    background: url("images/banner/banner1.png");
-    background-repeat: no-repeat;
-    background-position: top left;
+  background: none;
 }
 #hero{
     margin: 0 auto;
+    background-image: url("images/banner/banner1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 808px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 230px;
+
 }
 
 
 #hero .hero-content{
     max-width: 525px;
+    text-align: left;
 }
 
 #hero .hero-content h1{
@@ -48,7 +54,11 @@ header{
 }
 
 #hero .image-banner img{
-    max-width: 1600px ;
-    vertical-align: middle;
+    width: 100%;
+    max-width: 845px;
+    height: auto;
 
+}
+#hero .image-banner {
+    flex: 1; 
 }
