@@ -20,6 +20,39 @@ body .work-sans {
     cursor: pointer;
 }
 
+header{
+    background: url("images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 #hero{
-    margin: 1px red solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#hero .hero-content{
+    max-width: 525px;
+}
+
+#hero .hero-content h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+#hero .hero-content p{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+#hero .image-banner img{
+    max-width: 1600px ;
+    vertical-align: middle;
+
 }
