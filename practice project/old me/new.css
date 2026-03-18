@@ -1,64 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body .work-sans {
+.work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   
 }
 
-.btn{
-    background-color: #F15B22;
-    color: white;
-    border: none;
-    padding: 18px 25px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: semi-bold;
-    cursor: pointer;
-}
 
-header{
-  background: none;
-}
 #hero{
-    margin: 0 auto;
+    max-width: 1600px;
+    height: 808px;
     background-image: url("images/banner/banner1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 808px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 230px;
-
+    padding-top: 216px;
+    padding-bottom: 166px;
+   
 }
 
-
-#hero .hero-content{
-    max-width: 525px;
-    text-align: left;
+.hero-content {
+    max-width: 525px; /* Figma-r text box width */
+    text-align: right;
 }
 
-#hero .hero-content h1{
+.hero-content h1 {
     font-size: 65px;
     font-weight: bold;
     color: #151414;
     margin-bottom: 24px;
 }
-
-#hero .hero-content p{
-    color: #444343;
+.hero-content p
+{
     font-size: 16px;
     line-height: 26px;
+    color: #444343;
     margin-bottom: 32px;
-}
-
-#hero .image-banner img{
-    width: 100%;
-    max-width: 845px;
-    height: auto;
 
 }
-#hero .image-banner {
-    flex: 1; 
+
+.btn {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }
+
+
+#person{
+    padding: 131px 332px 130px 206px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
